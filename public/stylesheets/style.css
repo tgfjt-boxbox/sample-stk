@@ -1,0 +1,21 @@
+html {
+  overflow-x: hidden;
+}
+
+body,html {
+  height: auto;
+}
+
+body {
+  margin: 0;
+  -webkit-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+
+  font-family: "Helvetica neue", Arial, Roboto, "Droid Sans", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", メイリオ, Meiryo, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}

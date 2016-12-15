@@ -1,0 +1,14 @@
+<main>
+  <h1>{{title}}</h1>
+  <div class="">
+    <input type="text" name="name" placeholder="name?" value="">
+    <ul id="js-jumon">
+      {{#jumon}}
+      <li>
+        {{> jumon}}
+      </li>
+      {{/jumon}}
+    </ul>
+  </div>
+</main>
+<script src="/javascripts/sample.js"></script>
